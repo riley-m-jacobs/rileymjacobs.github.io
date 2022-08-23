@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: [ "Aerospace Engineer and aspiring Pilot", "Eat, sleep, fly"],
+        strings: [ "Aerospace Engineer and Aspiring Pilot", "Eat, sleep, fly."],
         typeSpeed: 100,
         backDelay: 900,
         // loop
