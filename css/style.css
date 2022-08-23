@@ -1185,19 +1185,19 @@ ul.portfolio-image li .desc{
   /*padding: 20px 0;*/
 }
 .facebook a:after{
-  background-color: #527bbb;
+  background-color: #0072b1;
 }
 .twitter{
   background: #ABABAB;
 }
 .twitter a:after{
-  background-color: #77ccf1;
+  background-color: #5ee0be;
 }
 .gplus{
   background: #d8d8d8;
 }
 .gplus a:after{
-  background: #dd4b39;
+  background: #171515;
 }
 
 .footer-bottom{
