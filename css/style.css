@@ -704,7 +704,7 @@ ul.portfolio-image li .desc{
 /*---------- b. skills  -----------*/
 .icon {
   font-size: 50px;
-  margin: 30px;
+  margin: 35px;
 }
 table {
     border-collapse: collapse;
@@ -716,10 +716,11 @@ td {
     padding: 8px;
 }
 .caption{
-  font-size: 14px;
-  color: gray;
-  text-align:center;
-  padding: 2px;
+  font-size: 20px;
+  color: #818181;
+  text-align: center;
+  font-weight: 300;
+  padding: 15px;
 }
 
 
