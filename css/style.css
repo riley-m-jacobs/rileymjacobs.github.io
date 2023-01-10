@@ -492,9 +492,8 @@ p {
 }
 .company {
   font-size: 13px;
-  font-weight: 300;
-  line-height: 14px;
-  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 18px;
   color: #0072b1;
 
 }
