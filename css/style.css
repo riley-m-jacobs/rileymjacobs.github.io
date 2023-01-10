@@ -488,13 +488,13 @@ p {
   line-height: 14px;
   letter-spacing: 0.4px;
   text-transform: uppercase;
-  color: #cccccc;
+  color: #434343;
 }
 .company {
   font-size: 12px;
   line-height: 14px;
   border: 1px solid #ececec;
-  color: #cccccc;
+  color: #434343;
   padding:8px 10px;
   border-radius: 6px;
   display: inline-block;
@@ -733,7 +733,7 @@ ul.portfolio-image li .desc{
   -webkit-transform-origin: 100% 0;
 }
 .wrap-card:hover {
-  box-shadow: 20px 20px 0px #90EE90;
+  box-shadow: 20px 20px 0px #818181;
   -webkit-transform: translateY(-10px) translateX(-10px);
   transition: all 0.2s ease 0.4s;
 }
@@ -754,7 +754,7 @@ ul.portfolio-image li .desc{
   content: " ";
   width: 3px;
   height: 100%;
-  background:  #0072b1;
+  background:  #818181;
   -webkit-transform: scaleY(0);
   transition: all 0.2s ease 0.2s;
 }
