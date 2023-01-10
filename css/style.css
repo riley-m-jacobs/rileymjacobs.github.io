@@ -708,15 +708,6 @@ ul.portfolio-image li .desc{
   margin: 0;
 }
 
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-td {
-    text-align: center;
-    padding: 8px;
-}
 
 /*---------- c. experience -----------*/
 .wrap-card {
