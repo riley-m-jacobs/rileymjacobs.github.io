@@ -699,11 +699,25 @@ ul.portfolio-image li .desc{
   line-height: 26px;
   margin-bottom: 60px;
 }
+
+
+/*---------- b. skills  -----------*/
 .icon-use {
   font-size: 48px;
   color: #818181;
   margin: 0;
-i}
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    padding: 8px;
+}
+
 /*---------- c. experience -----------*/
 .wrap-card {
   position: relative;
