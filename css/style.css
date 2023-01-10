@@ -678,7 +678,7 @@ ul.portfolio-image li .desc{
 
 
 /*---------- b. service -----------*/
-.icon-use {
+.service-use {
   font-family: 'Glyphter';
   font-size: 30px;
   line-height: 20px;
@@ -699,11 +699,11 @@ ul.portfolio-image li .desc{
   line-height: 26px;
   margin-bottom: 60px;
 }
-.icon {
+.icon-use {
   font-size: 48px;
   color: #818181;
   margin: 0;
-}
+i}
 /*---------- c. experience -----------*/
 .wrap-card {
   position: relative;
