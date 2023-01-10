@@ -754,7 +754,7 @@ ul.portfolio-image li .desc{
   content: " ";
   width: 3px;
   height: 100%;
-  background: #818181;
+  background: #5b5b5b;
   -webkit-transform: scaleY(0);
   transition: all 0.2s ease 0.2s;
 }
