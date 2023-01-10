@@ -702,9 +702,9 @@ ul.portfolio-image li .desc{
 
 
 /*---------- b. skills  -----------*/
-.icon-use {
-  font-size: 48px;
-  color: #818181;
+.icon {
+  font-size: 50px;
+  color: #90EE90;
   margin: 0;
 }
 table {
