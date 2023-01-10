@@ -708,7 +708,7 @@ ul.portfolio-image li .desc{
 }
 table {
     border-collapse: collapse;
-    width: 100%;
+    margin: 0 auto;
 }
 
 td {
@@ -716,11 +716,11 @@ td {
     padding: 8px;
 }
 .caption{
-  font-size: 20px;
-  color: #818181;
+  font-size: 15px;
+  color: ##0072b1;
   text-align: center;
-  font-weight: 300;
-  padding: 15px;
+  font-weight: 500;
+  padding: 10px;
 }
 
 
