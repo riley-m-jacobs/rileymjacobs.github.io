@@ -999,9 +999,10 @@ table {
 .button {
   position: absolute;
   top:50%;
-  background-color:#0a0a23;
+  background-color:#818181;
   color: #fff;
   border:none;
+  font-size: 13px;
   font-family: 'Glyphter';
 }
 
