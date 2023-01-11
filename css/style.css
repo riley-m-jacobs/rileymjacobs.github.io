@@ -722,8 +722,8 @@ td {
 }
 table {
   position: relative;
-  padding: 0;
-  width: 140%;
+  padding: 40;
+  width: 130%;
   margin: 0;
 }
 
