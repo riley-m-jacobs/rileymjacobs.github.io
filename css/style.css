@@ -704,7 +704,6 @@ ul.portfolio-image li .desc{
 /*---------- b. skills  -----------*/
 .icon {
   font-size: 50px;
-  margin: 35px;
 }
 
 td {
@@ -718,7 +717,11 @@ td {
   font-weight: 500;
   padding: 10px;
 }
-
+table {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
 
 /*---------- c. experience -----------*/
 .wrap-card {
