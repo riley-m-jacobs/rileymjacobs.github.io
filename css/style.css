@@ -726,6 +726,24 @@ table {
   margin: 0;
 }
 
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    background-color: #818181;
+    margin-left: 50%;
+}
+
+.styled:hover {
+    background-color: #90E4C1;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
 /*---------- c. experience -----------*/
 .wrap-card {
   position: relative;
