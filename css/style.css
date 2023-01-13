@@ -726,7 +726,7 @@ table {
   margin: 0;
 }
 
-.styled {
+#research .styled {
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -737,7 +737,7 @@ table {
     margin-left: 50%;
 }
 
-.styled:hover {
+#research .styled:hover {
     background-color: #5C4033;
 }
 
@@ -1003,12 +1003,6 @@ table {
 .wrap-about .name {
   margin: 40px 0 20px 0;
   font-size: 17px;
-}
-
-#more {display: none;
-   color: #A020F0;
-   font-size: 13px;
-   overflow-y: scroll;
 }
 
 .button {
