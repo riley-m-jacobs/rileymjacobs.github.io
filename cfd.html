@@ -220,6 +220,42 @@
         <!--/.MESH END-->
 
 
+        <!--MESH-->
+        <section class="white-bg" id="employment">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="title-small-center text-center">
+                  <span>Code Development</span>
+                </h3>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="content-details text-center">
+			The literature review highlights that most compressible Euler equation solvers use structured grids to solve the Navier-Stokes equations with the finite volume method. In this method, the advective terms are solved using the popular Godunov-type (upwind) method, where the inter-cell numerical fluxes are calculated by solving the Riemann problems using reconstructed values of the primitive variables at the cell interfaces. It has been found that finite volume schemes are better than flux splitting approaches due to their superior resolution of discontinuities. Thus, I have chosen to implement the superior finite volume method to simulate my ramp compression problem. <br></br> In his 1959 paper, Godunov outlined his first order finite volume method. Godunov observed that at each cell interface the numerical flux can be described as a Riemann problem. This means that the Riemann problem at every time can be solved explicitly in terms of waves, emanating from each interface. This form is the standard form of a finite volume scheme and can be solved explicitly for the scalar euler conservation laws. In order to use the Godunov scheme, I will begin by replacing the exact solutions of the Riemann problem with two approximate Riemann solvers. The first linearized solver is Roe. Roe solves the nonlinear equations by linearizing them. In order to improve Roe, Harten's entropy fix was also implemented. This particular linearized solver fails at resolving rarefractions, but as my particular problem consists of a single wave traveling to the right (or to the left depending on the sign of A), the Roe scheme should be sufficient to capture the shock phenomena present in the problem. <br></br> I will additionally implement the Harten-Lax-van Leer-Einfeldt (HLLE) as well as HLLE+ flux function method as it is rather simple and efficient. This particular scheme keeps only the largest and smallest characteristics, averages intermediate states in-between. As proposed by Park and Kwan, the wave speed estimates from the HLLE scheme with the velocity estimate from Roe's scheme can form the HLLE+ flux function numerical scheme. Additional constraints such as the CFL condition as well as slope limiters will be investigated to help ensure numerical stability and accuracy especially around high density changes like the shocks.
+		    </p>
+                  </div>
+                </div>
+                <img src="cfdi/prelim.jpg" />
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="content-details text-center">
+			The boundary conditions for the velocity field are relatively straightforward. There are three kinds of boundaries to be defined in this problem: inlet, exit, and the wall or a solid wall boundary. The inlet will ensure a uniform velocity in the x-direction, while the top and bottom boundaries will be set to zero to ensure that the no-slip and no-through boundary conditions are satisfied. This is accounted by the assigning the nodes along the top and bottom boundaries as no flow through. Mathematically and numerically this is imposed by n_x*u = n_y*v = 0. Unlike incompressible flow, there is no need to solve Poisson's equation for pressure, but we only need to account for pressure using the state equation. In summary, the "wind tunnel" will contain a uniform flow in the x-direction with density $\rho = 1$, pressure $P = 1.4$, and will be investigated at both Mach 2 and 3.
+                    </p>
+                  </div>
+                </div>
+                <img src="cfdi/RampCompression.jpg" />
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="content-details text-center">
+                        The first refinement was to reduce the number of cells in the pre-shock region (as the flow will remain uniform) while increasing the number of cells in the post-shock region. This will provide the required resolution to capture the post-shock behavior as the shock bounces of the top and bottom walls. Additionally, to capture the rapid changes in flow properties closer to the wall, a scaling or "stretching" has been applied in the y-direction, creating a greater number of cells closer to the wall. Additionally, to further refine the mesh domain, each square control volume has been divided into two triangular control volumes. This process resulted in the mesh shown below.
+                    </p>
+                </div>
+               </div>
+            </div>
+          </div>
+        </section>
+        <!--/.MESH END-->
+
         <!--FOOTER-->
         <footer>
           <div class="footer-top">
