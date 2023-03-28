@@ -1318,7 +1318,16 @@ table {
 
 
 
+
 /*---------------------------------- Other pages ------------------------------------------------------*/
+
+#mesh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
 #mesh img {
   max-width: 50%;
 }
