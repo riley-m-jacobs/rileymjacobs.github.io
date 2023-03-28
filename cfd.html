@@ -161,6 +161,52 @@
         </section>
         <!--/.TIMELINE END-->
 
+        <!--MESH-->
+        <section class="grey-bg" id="accomplishments">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="title-small-center text-center">
+                  <span>Initial Mesh and Planning Phase</span>
+                </h3>
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="content-details text-center">
+			A refined mesh was generated in Matlab to simulate the flow over a ramp, which is commonly found on high-speed vehicle surfaces or inlets to engines. The mesh was divided into three major regions: pre-shock, ramp, and post-shock. The mesh refinement process was carried out to ensure that the mesh is accurately refined for visualizing and analyzing the development of the oblique shock at the base of the ramp. Prior to the mesh refinement process, preliminary sketches were undertaken to identify the overarching dimensions, geometry of the ramp and early development of the logic pertaining to node placement and control volumes. The beginnnings of a mesh and the "rough" sketches are shown below.
+                    </p>
+                  </div>
+                </div>
+		<img src="cfdi/prelim.jpg" />
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="content-details text-center">
+			Such a sketch was quickly adapted into Matlab. The mesh refinement process has been undertaken to ensure that the mesh is adequately refined to accurately visualize and analyze the development of the oblique shock at the base of the ramp.
+                    </p>
+                  </div>
+                </div>
+		<img src="cfdi/RampCompression.jpg" />
+                <div class="row">
+                  <div class="col-md-12">
+                    <p class="content-details text-center">
+			The first refinement was to reduce the number of cells in the pre-shock region (as the flow will remain uniform) while increasing the number of cells in the post-shock region. This will provide the required resolution to capture the post-shock behavior as the shock bounces of the top and bottom walls. Additionally, to capture the rapid changes in flow properties closer to the wall, a scaling or "stretching" has been applied in the y-direction, creating a greater number of cells closer to the wall. Additionally, to further refine the mesh domain, each square control volume has been divided into two triangular control volumes. This process resulted in the mesh shown below.
+                    </p>
+                  </div>
+                </div>
+		<img src="cfdi/rough_mesh.jpg" />
+                <div class="row">
+                  <div class="col-md-12">
+		<p class="content-details text-center">
+			A convergence study was conducted to evaluate the effect of increasing the number of control volumes on the simulation results. It was observed that as the number of control volumes increased, the flow became clearer and finer details became easier to see. This can be attributed to the fact that a higher number of control volumes allows for a more accurate discretization of the flow domain and a better resolution of the flow features. The convergence study demonstrated that increasing the number of control volumes significantly improves the accuracy and reliability of the simulation results. Therefore, it is recommended to use a sufficiently large number of control volumes to ensure that the flow characteristics are captured accurately and the simulation results are reliable.
+		</p>
+                  </div>
+                </div>
+		<img src="cfdi/refined_mesh.jpg" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.MESH END-->
+
 
         <!--FOOTER-->
         <footer>
